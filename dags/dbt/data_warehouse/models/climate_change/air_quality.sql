@@ -6,7 +6,7 @@
 }}
 
 with final as (
-    select 
+    select
         "Unique ID",
         "Indicator ID",
         "Name",
