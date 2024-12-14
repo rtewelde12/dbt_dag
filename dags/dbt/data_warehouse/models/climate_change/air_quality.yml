@@ -1,0 +1,19 @@
+version: 2
+
+models:
+  - name: air_quality
+    description: "Air Quality database"
+    columns:
+      - name: Unique_ID
+      - name: Indicator_ID
+      - name: Name
+      - name: Measure
+      - name: Measure_Info
+      - name: Geo_Type_Name
+      - name: Geo_Join_ID
+      - name: Geo_Place_Name
+      - name: Time_Period
+      - name: Start_Date
+      - name: Data_Value
+      - name: Message
+      

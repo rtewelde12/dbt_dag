@@ -1,0 +1,21 @@
+version: 2
+
+models:
+  - name: employee_list
+    description: "Employee database"
+    columns:
+      - name: Employee_ID
+      - name: Full_Name
+      - name: Job_Title
+      - name: Department
+      - name: Business_Unit
+      - name: Gender
+      - name: Ethnicity
+      - name: Age
+      - name: Hire_Date
+      - name: Annual_Salary
+      - name: Bonus_percentages
+      - name: Country
+      - name: City
+      - name: Exit_Date
+      
