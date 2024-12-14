@@ -5,13 +5,12 @@
 }}
 
 with final as (
-    select 
+    select
         "date",
         "meantemp",
         "humidity",
         "wind_speed",
         "meanpressure"
-
     from {{ ref('daily_delhi_climate_test_seed') }}
 )
 
