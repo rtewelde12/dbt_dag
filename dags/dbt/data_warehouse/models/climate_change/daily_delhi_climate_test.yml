@@ -1,0 +1,11 @@
+version: 2
+
+models:
+  - name: daily_delhi_climate_test
+    description: "Daily Delhi Climate Test database"
+    columns:
+      - name: date
+      - name: meantemp
+      - name: humidity
+      - name: wind_speed
+      - name: meanpressure
